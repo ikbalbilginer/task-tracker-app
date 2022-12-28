@@ -20,7 +20,7 @@ const INITIAL_STATE = {
   ],
 };
 
-const authReducer = (state = INITIAL_STATE, action) => {
+const taskReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case taskTypes.CREATE_NEW_TASK:
       var tasks = [...state.taskList, action.payload];
@@ -45,4 +45,4 @@ const authReducer = (state = INITIAL_STATE, action) => {
   }
 };
 
-export default authReducer;
+export default taskReducer;
