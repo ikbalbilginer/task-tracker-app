@@ -1,0 +1,16 @@
+@import "../../styles/shared.scss";
+
+.badge-c {
+  border-radius: $radius;
+  width: 100px;
+}
+
+.badge-txt {
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}

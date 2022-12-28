@@ -1,0 +1,7 @@
+const modalTypes = {
+  START_GET_PRIORITIES: "START_GET_PRIORITIES",
+  SET_PRIORITIES: "SET_PRIORITIES",
+  CREATE_NEW_TASK: "CREATE_NEW_TASK",
+};
+
+export default modalTypes;
